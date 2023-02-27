@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.wrapper {
+    max-width: 960px;
+    width: 54%;
+    margin: 0 auto;
+}
+
+.levels button {
+    display: inline-block;
+    padding: 12px 27px;
+    width: 100%;
+    color: #fff;
+    font: bold 16px/1.5em 'Roboto';
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    transition: all 0.5s ease;
+}
+
+.levels button:hover {
+    box-shadow: 0 2px 2.5px rgba(8,118,52,0.35);
+    background-color: orange;
+}
